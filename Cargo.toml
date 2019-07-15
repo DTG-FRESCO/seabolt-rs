@@ -1,0 +1,10 @@
+[package]
+name = "seabolt"
+version = "0.1.0"
+authors = ["Thomas Bytheway <tb403@cam.ac.uk>"]
+edition = "2018"
+
+[dependencies]
+seabolt-sys = { git = "https://github.com/DTG-FRESCO/seabolt-sys.git" }
+lazy_static = "1.*"
+
